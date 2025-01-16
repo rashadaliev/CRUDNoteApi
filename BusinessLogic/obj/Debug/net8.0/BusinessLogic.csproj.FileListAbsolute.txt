@@ -1,0 +1,17 @@
+D:\projecting_csharp\NoteApi\BusinessLogic\bin\Debug\net8.0\BusinessLogic.deps.json
+D:\projecting_csharp\NoteApi\BusinessLogic\bin\Debug\net8.0\BusinessLogic.runtimeconfig.json
+D:\projecting_csharp\NoteApi\BusinessLogic\bin\Debug\net8.0\BusinessLogic.dll
+D:\projecting_csharp\NoteApi\BusinessLogic\bin\Debug\net8.0\BusinessLogic.pdb
+D:\projecting_csharp\NoteApi\BusinessLogic\bin\Debug\net8.0\DataAccess.dll
+D:\projecting_csharp\NoteApi\BusinessLogic\bin\Debug\net8.0\DataAccess.pdb
+D:\projecting_csharp\NoteApi\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.AssemblyReference.cache
+D:\projecting_csharp\NoteApi\BusinessLogic\obj\Debug\net8.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\projecting_csharp\NoteApi\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\projecting_csharp\NoteApi\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfo.cs
+D:\projecting_csharp\NoteApi\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\projecting_csharp\NoteApi\BusinessLogic\obj\Debug\net8.0\Business.CF5D6E35.Up2Date
+D:\projecting_csharp\NoteApi\BusinessLogic\obj\Debug\net8.0\BusinessLogic.dll
+D:\projecting_csharp\NoteApi\BusinessLogic\obj\Debug\net8.0\refint\BusinessLogic.dll
+D:\projecting_csharp\NoteApi\BusinessLogic\obj\Debug\net8.0\BusinessLogic.pdb
+D:\projecting_csharp\NoteApi\BusinessLogic\obj\Debug\net8.0\BusinessLogic.genruntimeconfig.cache
+D:\projecting_csharp\NoteApi\BusinessLogic\obj\Debug\net8.0\ref\BusinessLogic.dll

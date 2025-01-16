@@ -1,0 +1,14 @@
+D:\projecting_csharp\NoteApi\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\projecting_csharp\NoteApi\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\projecting_csharp\NoteApi\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\projecting_csharp\NoteApi\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\projecting_csharp\NoteApi\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\projecting_csharp\NoteApi\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\projecting_csharp\NoteApi\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\projecting_csharp\NoteApi\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\projecting_csharp\NoteApi\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\projecting_csharp\NoteApi\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\projecting_csharp\NoteApi\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\projecting_csharp\NoteApi\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\projecting_csharp\NoteApi\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\projecting_csharp\NoteApi\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
