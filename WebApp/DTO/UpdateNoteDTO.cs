@@ -1,3 +1,3 @@
 namespace WebAppi.DTO;
 
-public record UpdateNoteDto(Guid Id, string NewText);
+public record UpdateNoteDto(Guid Id, string NewText, string Image);

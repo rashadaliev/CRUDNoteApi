@@ -11,14 +11,15 @@ public class NoteController(INoteService noteService) : ControllerBase
     [HttpPost("Create")]
     public async Task<IActionResult> CreateAsync(CreateNoteWithoutTitleDto createNoteWithoutTitleDto)
     {
-        await noteService.CreateAsync(createNoteWithoutTitleDto.Text);
+        await noteService.CreateAsync(createNoteWithoutTitleDto.Text, createNoteWithoutTitleDto.Image);
         return NoContent();
     }
 
     [HttpPost("CreateWithTitle")]
     public async Task<IActionResult> CreateWithTitle(CreateNoteWithTitleDto createNoteWithTitleDto)
     {
-        await noteService.CreateWithTitleAsync(createNoteWithTitleDto.Title, createNoteWithTitleDto.Text);
+        await noteService.CreateWithTitleAsync(createNoteWithTitleDto.Title, 
+            createNoteWithTitleDto.Text, createNoteWithTitleDto.Image);
         return NoContent();
     }
     
@@ -41,7 +42,7 @@ public class NoteController(INoteService noteService) : ControllerBase
     [HttpPut("UpdateNote")]
     public async Task<IActionResult> UpdateNoteAsync([FromBody]UpdateNoteDto updateNoteDto)
     {
-        await noteService.UpdateAsync(updateNoteDto.Id, updateNoteDto.NewText);
+        await noteService.UpdateAsync(updateNoteDto.Id, updateNoteDto.NewText, updateNoteDto.Image);
         return NoContent();
     }
     

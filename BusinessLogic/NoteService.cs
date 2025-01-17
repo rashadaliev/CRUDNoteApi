@@ -4,23 +4,25 @@ namespace BusinessLogic;
 
 public class NoteService(INoteRepository noteRepository) : INoteService
 {
-    public async Task CreateAsync(string text, CancellationToken cancellationToken = default)
+    public async Task CreateAsync(string text, string? image, CancellationToken cancellationToken = default)
     {
         var note = new Note
         {
             Title = text.Length > 50 ? text.Substring(0,50) : text,
-            Text = text
+            Text = text,
+            ImagePath = image
         };
 
         await noteRepository.CreateAsync(note, cancellationToken);
     }
 
-    public async Task CreateWithTitleAsync(string title, string text, CancellationToken cancellationToken = default)
+    public async Task CreateWithTitleAsync(string title, string text, string? image, CancellationToken cancellationToken = default)
     {
         var note = new Note
         {
             Title = title.Length > 50 ? title.Substring(0,50) : title,
-            Text = text
+            Text = text,
+            ImagePath = image
         };
 
         await noteRepository.CreateAsync(note, cancellationToken);
@@ -43,13 +45,14 @@ public class NoteService(INoteRepository noteRepository) : INoteService
             .Select(note => note.Title)!;
     }
 
-    public async Task UpdateAsync(Guid id, string newText, CancellationToken cancellationToken = default)
+    public async Task UpdateAsync(Guid id, string newText, string? image, CancellationToken cancellationToken = default)
     {
         var note = await noteRepository.GetByIdAsync(id, cancellationToken);
         if (note is null)
             throw new Exception("Note not found!");
 
         note.Text = newText;
+        note.ImagePath = image;
         await noteRepository.UpdateAsync(note, cancellationToken);
     }
 

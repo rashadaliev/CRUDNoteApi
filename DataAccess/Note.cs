@@ -7,4 +7,5 @@ public class Note
     public required string Text { get; set; }
     public DateTime Created { get; set; }
     public DateTime Updated { get; set; }
+    public string? ImagePath { get; set; }
 }

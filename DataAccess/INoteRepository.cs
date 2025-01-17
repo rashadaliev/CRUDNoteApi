@@ -7,5 +7,4 @@ public interface INoteRepository
     Task<List<Note>> GetAllAsync(CancellationToken cancellationToken = default);
     Task UpdateAsync(Note note, CancellationToken cancellationToken = default);
     Task DeleteAsync(Note note, CancellationToken cancellationToken = default);
-
 }

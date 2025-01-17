@@ -12,3 +12,4 @@ D:\projecting_csharp\NoteApi\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
 D:\projecting_csharp\NoteApi\DataAccess\obj\Debug\net8.0\DataAccess.pdb
 D:\projecting_csharp\NoteApi\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
 D:\projecting_csharp\NoteApi\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\projecting_csharp\NoteApi\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
